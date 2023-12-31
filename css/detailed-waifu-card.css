@@ -1,0 +1,59 @@
+.waifu-name {
+  font: var(--font-lora);
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 0.4rem;
+  
+  @media (max-width: 720px) {
+    font-size: 1.7rem;
+    padding: 0.5rem;
+  }
+}
+
+.waifu-img img {
+  max-width: 65%;
+  /* Prevents the image from overflowing its parent */
+  height: auto;
+  /* Maintains the image's aspect ratio */
+  display: block;
+  /* Ensures proper responsiveness */
+  margin: 1vh auto;
+  /* Centers the image horizontally */
+  border-radius: 10px;
+  /* Rounded corners */
+}
+
+.waifu-quote {
+  background-color: var(--blue-lighter);
+  color: var(--text-red-light);
+  text-align: center;
+  margin-top: 1vh;
+  border-radius: 10px;
+  padding: 2vh 1vw;
+  font: var(--font-nunito);
+  font-style: italic;
+}
+
+.text-container {
+  margin-top: 1vh;
+  border-radius: 10px;
+  padding: 2vh 1vw;
+  background-color: var(--blue-lighter);
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.label {
+  font: var(--font-nunito);
+  color: var(--text-blue);
+}
+
+.value {
+  font: var(--font-nunito);
+  color: var(--white);
+}

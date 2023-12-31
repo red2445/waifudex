@@ -1,0 +1,23 @@
+.back-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--blue-mediam);
+  margin-top: 3vh;
+  margin-left: 15vw;
+  width: 5vw;
+  height: 4vh;
+
+  @media (max-width: 720px) {
+    margin-top: 4vh;
+    width: 12vw;
+    height: 4vh;
+  }
+
+}
+
+.back-button img {
+  background-color: transparent;
+}

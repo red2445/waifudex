@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  margin-top: 1.5vh;
+  width: 100%;
+  justify-content: center;
+}
+
+.backgraound {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--blue-opacity);
+  margin-top: 2vh;
+  width: 70%;
+  height: 100%;
+
+  @media (max-width: 720px) {
+    width: 97%;
+  }
+
+}
